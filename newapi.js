@@ -2,8 +2,6 @@ $(document).ready(function() {
 
 	var movie;       
         $.ajax({
-        	//type: 'GET',
-        	//crossDomain: true,
             url : "http://www.omdbapi.com/?t=como+agua+para+chocolate&y=&plot=short&r=json",
         }).done(function(Data){
             console.log(Data);
@@ -29,36 +27,3 @@ $(document).ready(function() {
 
 
 
-
-// var apikey = 'dc6zaTOxFJmzC'; // Put your API key here
-
-// function searchCallback(results) {
-//     console.log(results);
-// }
-
-// $(document).ready(function() {
-// 	search('ryan+gosling');
-
-// });
-
-
-
-// function search(query){
-
-// 	$.ajax ({
-// 	    type: 'GET',
-// 	    dataType: 'jsonp',
-// 	    crossDomain: true,
-// 	    jsonp: 'json_callback',
-// 	    url: 'http://api.giphy.com/v1/gifs/search?q=' + encodeURI(query) + '&api_key=' + apikey,
-// 	}).done(function(data){
-// 		searchCallback(data.results);
-// 	});
-// }
-
-
-
-
-// var $target = $("<p>" + )
-
-// });
