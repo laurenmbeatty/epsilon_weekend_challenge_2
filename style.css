@@ -1,0 +1,24 @@
+body {
+	background-color: #E6E6D8;
+}
+header {
+	color: #E6E6D8;
+	background-color: #572216;
+	height: 150px;
+	width: 100%;
+	font: Helvetica, sans-serif;
+	border-radius: 10px;
+}
+
+h1 {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+p {
+	text-align: center;
+	font: Helvetica, sans-serif;
+	font-size: 24px;
+	margin-top: 50px;
+	padding: 10px;
+}
